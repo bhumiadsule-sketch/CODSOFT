@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f7fb;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #243a7e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.hero-text {
+    width: 45%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    color: #243a7e;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #243a7e;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero-img img {
+    width: 280px;
+}
+
+/* Features */
+.features {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.box {
+    width: 25%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f3ff;
+}
+
+/* CTA */
+.cta {
+    background-color: #243a7e;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.cta button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: white;
+    color: #243a7e;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1b2c5c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
